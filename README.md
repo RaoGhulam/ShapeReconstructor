@@ -23,7 +23,7 @@ The system learns to infer these commands autoregressively from rasterized sketc
 ## Project Objective
 The goal of this project is to replicate the core ideas presented in the paper:
 
-- Convert hand-drawn images into executable graphics programs
+- Convert hand-drawn images into sequence of commands
 - Infer primitive shapes and their parameters
 - Use autoregressive decoding to reconstruct structured drawing commands
 

@@ -1,0 +1,43 @@
+[train] device = cuda
+[train] dataset size: 1000, train: 900, val: 100
+[train] model parameters: 507,168
+[train] starting training for 100 epochs …
+
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/conv.py:548: UserWarning: Using padding='same' with even kernel lengths and odd dilation may require a zero-padded copy of the input be created (Triggered internally at /pytorch/aten/src/ATen/native/Convolution.cpp:1025.)
+  return F.conv2d(
+Epoch   1/100  train_loss=2.2119  val_loss=2.1434  lr=1.00e-03  time=55.3s
+  ✓ saved best model → checkpoints/best_model.pt
+Epoch   2/100  train_loss=2.1599  val_loss=2.1219  lr=1.00e-03  time=56.4s
+  ✓ saved best model → checkpoints/best_model.pt
+Epoch   3/100  train_loss=2.1409  val_loss=2.1102  lr=1.00e-03  time=55.5s
+  ✓ saved best model → checkpoints/best_model.pt
+Epoch   4/100  train_loss=2.1252  val_loss=2.0991  lr=1.00e-03  time=56.0s
+  ✓ saved best model → checkpoints/best_model.pt
+Epoch   5/100  train_loss=2.0814  val_loss=2.0784  lr=1.00e-03  time=55.8s
+  ✓ saved best model → checkpoints/best_model.pt
+Epoch   6/100  train_loss=2.0364  val_loss=2.0550  lr=1.00e-03  time=56.3s
+  ✓ saved best model → checkpoints/best_model.pt
+Epoch   7/100  train_loss=1.9714  val_loss=2.0238  lr=1.00e-03  time=56.2s
+  ✓ saved best model → checkpoints/best_model.pt
+Epoch   8/100  train_loss=1.9103  val_loss=1.9840  lr=1.00e-03  time=55.5s
+  ✓ saved best model → checkpoints/best_model.pt
+Epoch   9/100  train_loss=1.8391  val_loss=1.9723  lr=1.00e-03  time=56.1s
+  ✓ saved best model → checkpoints/best_model.pt
+Epoch  10/100  train_loss=1.7695  val_loss=2.0130  lr=1.00e-03  time=55.7s
+Epoch  11/100  train_loss=1.6782  val_loss=1.9125  lr=1.00e-03  time=55.9s
+  ✓ saved best model → checkpoints/best_model.pt
+Epoch  12/100  train_loss=1.6105  val_loss=1.9242  lr=1.00e-03  time=56.3s
+Epoch  13/100  train_loss=1.5388  val_loss=1.9383  lr=1.00e-03  time=56.4s
+Epoch  14/100  train_loss=1.4408  val_loss=1.8841  lr=1.00e-03  time=57.1s
+  ✓ saved best model → checkpoints/best_model.pt
+Epoch  15/100  train_loss=1.3662  val_loss=1.9478  lr=1.00e-03  time=57.0s
+Epoch  16/100  train_loss=1.2845  val_loss=1.9882  lr=1.00e-03  time=57.3s
+Epoch  17/100  train_loss=1.2197  val_loss=2.0543  lr=1.00e-03  time=57.2s
+Epoch  18/100  train_loss=1.1606  val_loss=2.0534  lr=1.00e-03  time=56.2s
+Epoch  19/100  train_loss=1.1051  val_loss=2.0775  lr=1.00e-03  time=56.8s
+
+[train] Early stopping triggered at epoch 19
+
+[train] done. Best val_loss = 1.8841
+[train] Loss curve saved → checkpoints/loss_curve.png
+Figure(800x500)
